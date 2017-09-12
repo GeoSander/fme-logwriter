@@ -1,0 +1,35 @@
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI CHOICE __LOG_MOMENT &quot;On First Feature&quot;%&quot;On Each Feature&quot;%&quot;On Last Feature&quot; Write Log Message:"
+#!   DEFAULT_VALUE="On Each Feature"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI LOOKUP_CHOICE __LOG_TYPE Information,0%Warning,1%Error,2%Fatal&lt;space&gt;Error,3%Statistics,4%Status&lt;space&gt;Report,5 Message Type:"
+#!   DEFAULT_VALUE="1"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI CHOICE __LOG_FEATURE No%&quot;For Each Message&quot;%&quot;For Each Message incl. Line(s)&quot; Create Log Features:"
+#!   DEFAULT_VALUE="No"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!	 GUI_LINE="GUI DIVIDER"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI CHOICE __LINE_TOP No%&quot;Blank Line&quot;%=-=-=-=-=%========%++++++++%----------- Preceding Line:"
+#!   DEFAULT_VALUE="No"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI TEXT_EDIT_OR_NUM_OR_ATTR __LOG_MESSAGE Log Message(s):"
+#!   DEFAULT_VALUE=""
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI CHOICE __LINE_BOTTOM No%&quot;Blank Line&quot;%=-=-=-=-=%========%++++++++%----------- Succeeding Line:"
+#!   DEFAULT_VALUE="No"
+#!   IS_STAND_ALONE="true"
+#! />
+#! </GLOBAL_PARAMETERS>
