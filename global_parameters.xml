@@ -1,12 +1,12 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI CHOICE __LOG_MOMENT &quot;On First Feature&quot;%&quot;On Each Feature&quot;%&quot;On Last Feature&quot; Write Log Message:"
-#!   DEFAULT_VALUE="On Each Feature"
+#!   GUI_LINE="GUI CHOICE __LOG_MOMENT &quot;Before First Feature&quot;%&quot;Before Each Feature&quot;%&quot;After Last Feature&quot; Write Log Message:"
+#!   DEFAULT_VALUE="Before Each Feature"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI LOOKUP_CHOICE __LOG_TYPE Information,0%Warning,1%Error,2%Fatal&lt;space&gt;Error,3%Statistics,4%Status&lt;space&gt;Report,5 Message Type:"
-#!   DEFAULT_VALUE="1"
+#!   GUI_LINE="GUI LOOKUP_CHOICE __LOG_TYPE Information,0%Warning,1%Error,2%Fatal&lt;space&gt;Error,3%Statistics,4 Message Level:"
+#!   DEFAULT_VALUE="0"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
